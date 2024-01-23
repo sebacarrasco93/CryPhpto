@@ -1,11 +1,11 @@
 <?php
 
-class Bytez
+class CryPhpto
 {
     static public $CIFRADO = 'aes-256-cbc';
     static public $CLAVE = '@SextaNet-2024';
 
-    public static function cifrar(string $texto)
+    public static function 🔒(string $texto)
     {
         $iv = openssl_random_pseudo_bytes(openssl_cipher_iv_length(self::$CIFRADO));
         $cifrado = openssl_encrypt($texto, self::$CIFRADO, self::$CLAVE, 0, $iv);
@@ -13,7 +13,7 @@ class Bytez
         return base64_encode($iv.$cifrado);
     }
 
-    public static function descifrar(string $texto)
+    public static function 🔓(string $texto)
     {
         $texto = base64_decode($texto);
         $iv = substr($texto, 0, openssl_cipher_iv_length(self::$CIFRADO));
