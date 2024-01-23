@@ -2,4 +2,4 @@
 
 require __DIR__.'/funciones.php';
 
-echo CryPhpto::🔓('daX9sUdGsSiHdL4MPLwrbmdHMmlUd2ZtVTRQN3VGL2lDVitoL2QyQS9JUUZwdUdGS2U2MGZmMEhKTUU9');
+echo CryPhpto::🔓('G4qzSOjkbuNtoE/j3+pUAzlZbHUwTXVoS3I2R3h4M2QvSVFYTU1keCtiSkd4NnZVSzFTd0VpTXJpT24rY3UxTVJyalhWQXdnQ2NLdnhRN2w=');
