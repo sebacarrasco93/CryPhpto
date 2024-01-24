@@ -1,5 +1,7 @@
 <?php
 
+namespace SebaCarrasco93\CryPhpto;
+
 class CryPhpto
 {
     static public $CIFRADO = 'aes-256-cbc';

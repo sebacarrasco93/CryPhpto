@@ -1,0 +1,17 @@
+{
+    "name": "sebacarrasco93/cyphpto",
+    "description": "A simple class to encrypt and decrypt stings with a PSK (Pre Shared Key)",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "SebaCarrasco93\\CryPhpto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Seba Carrasco Poblete",
+            "email": "sebacarrasco93@gmail.com"
+        }
+    ],
+    "require": {}
+}
